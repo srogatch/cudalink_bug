@@ -1,0 +1,5 @@
+mkdir build
+cd build
+cmake .. -DCUDALINK_CUDA_CAPABILITY="7.5" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CUDA_ARCHITECTURES="75"
+make
+
