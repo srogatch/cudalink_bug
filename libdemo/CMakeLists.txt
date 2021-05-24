@@ -13,5 +13,5 @@ target_sources(cudalink_demo PRIVATE ${cuda_sources})
 set_target_properties(cudalink_demo PROPERTIES
     CUDA_SEPARABLE_COMPILATION ON
     CUDA_STANDARD 14
-    CUDA_RESOLVE_DEVICE_SYMBOLS ON
+    # CUDA_RESOLVE_DEVICE_SYMBOLS ON
     POSITION_INDEPENDENT_CODE ON)
